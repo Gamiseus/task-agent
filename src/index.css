@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Sci-Fi Palette - Cyberpunk / Starship */
+  --bg-deep: #030407;
+  --bg-panel: #0a0c14;
+  --bg-panel-transparent: rgba(10, 12, 20, 0.85);
+
+  --primary-glow: #00f3ff;
+  --primary-dim: rgba(0, 243, 255, 0.15);
+
+  --accent-amber: #ffaa00;
+  --accent-alert: #ff3333;
+  --accent-success: #00ff9d;
+
+  --text-primary: #e0faff;
+  --text-secondary: #94a3b8;
+
+  --font-display: 'Orbitron', ans-serif;
+  --font-ui: 'Rajdhani', sans-serif;
+  --font-code: 'Fira Code', monospace;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+}
